@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">"EZCounter"</string>
+    <string name="count">"加一"</string>
+    <string name="lock_reset">"鎖定重設鍵"</string>
+    <string name="unlock_reset">"解鎖重設鍵"</string>
+    <string name="reset">"重設"</string>
+</resources>

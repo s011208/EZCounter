@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">"EZCounter"</string>
+    <string name="count">"Add one"</string>
+    <string name="lock_reset">"Lock reset"</string>
+    <string name="unlock_reset">"Unlock reset"</string>
+    <string name="reset">"Reset"</string>
+</resources>
