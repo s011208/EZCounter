@@ -17,9 +17,13 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".appwidget.SimpleWidgetConfigureActivity" />
+
         <receiver android:name=".appwidget.SimpleWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="bj4.yhh.ezcounter.appwidget.add_one" />
+                <action android:name="bj4.yhh.ezcounter.appwidget.reset" />
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"

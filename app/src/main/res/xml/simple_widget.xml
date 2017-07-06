@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="bj4.yhh.ezcounter.appwidget.SimpleWidgetConfigureActivity"
+    android:initialLayout="@layout/simple_widget_layout"
     android:minHeight="100dp"
     android:minWidth="140dp"
-    android:initialLayout="@layout/simple_widget_layout"
-    android:resizeMode="horizontal|vertical"></appwidget-provider>
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="1"
+    android:widgetCategory="home_screen"></appwidget-provider>
